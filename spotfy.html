@@ -7,14 +7,28 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+    <style type="text/css">
+        .menu{
+            list-style: none;
+            }
+        .menu ul{
+            width: 200px;
+            height: auto;
+        }
+        .menu li{
+            width: 200px;
+            padding: 10px;
+            border-bottom: 1px solid gray;
+        }
+    </style>
     <title>Spotfy</title>
 </head>
 <body>
+<div style="background-color: #1C283A;">
 <!--cabecalho!-->
-<div  style="background-color: #1e2125; width:100%; height: 110px;">
-    <div class="container">
-        <div class="row">
+<div  style="background-color:black; width:100%; height: 80px;">
+    <div class="container" >
+        <div class="row" style="padding: 25px 25px;">
             <div class="col-md-3" style="color: #dde0e3">LOGO</div>
             <div class="col-md-3" style="color: #dde0e3"></div>
             <div class="col-md-6" style="color: #dde0e3; text-align: right">
@@ -31,7 +45,7 @@
         <div class="row">
             <div class="col-md-6"><h1>Curta 3 meses de Premium grátis</h1><br>
                 <h4>Curta músicas sem anúncios, no modo offline e muito mais.<br> Cancele quando quiser.</h4>
-                <button>Ganhe 3 meses grátis</button><br>
+                <button>Ganhe 3 meses grátis</button><br><br>
                 <p><small>Somente para o plano Individual. Depois, apenas R$ 16,90/mês. Oferta indisponível para usuários que já experimentaram o Premium. Sujeita a Termos e Condições. A oferta termina em 31 de dez de 2020.</small></p>
             </div>
             <div class="col-md-2"></div>
@@ -42,16 +56,20 @@
     <!--corpo-->
     <div class="container">
         <div class="row">
-            <div class="col-md-3" style="color: #dde0e3;"><!--Menu esquerdo!-->
-                Visão geral da conta<br>
-                Editar perfil<br>
-                Senha de dispositivo<br>
-                Configurar notificações<br>
-                Configurações de privacidade<br>
-                Recuperar playlists<br>
-                Recibos<br>
-                Aplicativos<br>
-                Resgatar<br>
+            <div class="col-md-3" style="color: #dde0e3; background-color: #1b1b1b; "><!--Menu esquerdo!-->
+              <p style="text-align: center; margin: 55px;"> --imagem--</p>
+                <ul class="menu">
+
+                    <li>Visão geral da conta</li>
+                    <li>Editar perfil</li>
+                    <li>Senha de dispositivo</li>
+                    <li>Configurar notificações</li>
+                    <li>Configurações de privacidade</li>
+                    <li>Recuperar playlists</li>
+                    <li>Recibos</li>
+                    <li>Aplicativos</li>
+                    <li>Resgatar</li>
+                </ul>
             </div><!--Menu esquerdo! fim-->
 
             <!--conteudo principal-->
@@ -86,7 +104,7 @@
     <!--fim do corpo-->
 
     <!--rodapé-->
-    <div style="width: 100%; height: 400px; background-color:black; color:white; text-align:left">
+    <div style="width: 100%; height: 400px; background-color:black; color:white; text-align:left; padding: 70px; 25px 35px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">LOGO</div>
@@ -119,9 +137,20 @@
                     Redes sociais
                 </div>
             </div>
-        </div><!--fim do rodapé -->
+        </div>
+        <!--fim do rodapé -->
+        <!--Subrodapé-->
+        <div class="row" style="margin-top:55px; margin-bottom: 0px;">
+            <div class="col-md-7" style="text-align: left; font-size: smaller" >
+            Legal | Centro de Privacidade |   Política de privacidade | Cookies | Sobre | anúncios
+            </div>
+            <div class="col-md-5"style="text-align: right; font-size: smaller; ">
+                © 2020 Spotify AB
+            </div>
+        </div>
+        <!--Subrodapé-->
 
-
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 
